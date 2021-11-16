@@ -1,0 +1,13 @@
+---
+stack:
+  repository: https://github.com/gimlet-io/gimlet-stack-reference.git?tag=v0.8.0
+config:
+  loki:
+    enabled: true
+  nginx:
+    enabled: true
+    host: hello.wefox.localhost
+  prometheus:
+    enabled: true
+    persistence: true
+    volumeSize: 2
